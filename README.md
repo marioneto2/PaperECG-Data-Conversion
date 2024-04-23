@@ -67,19 +67,3 @@ Download the ECG data if not already locally available and then plot the data.
 ```python
 download_and_plot_data(url, image_file_name, download_path, csv_file_name)
 ```
-
-### Main Script
-
-The main script initiates the download of data if not already present locally, followed by the plotting of the data.
-
-## Usage
-
-Run the script using the following command:
-
-```bash
-python script_name.py
-```
-
-Replace "script_name.py" with the actual name of the script file. Ensure that the image of interest for digitizing the ECG is in the same location as the Python script.
-
-Additionally, the script is modular, and its functions can be imported and used in other Python scripts as needed.

@@ -1,6 +1,13 @@
 # ECG Data Analysis and Plotting with Plotly
 
+The goal is to automate data conversion for training AI models from paper ECG data. Special thanks to the authors, more information about the projects I built this around, please check ["A fully-automated paper ECG digitisation algorithm using deep learning"](https://www.nature.com/articles/s41598-022-25284-1).
+
 This Python script, `plotly_scrap.py`, facilitates the download of ECG data from a dedicated website ("http://ecg-digitisation.hh.med.ic.ac.uk:8050/") and subsequent plotting of the acquired data using the Plotly library.
+
+<iframe src="plots/ecg_leads.html" width="100%" height="500px"></iframe>
+
+![example_6by2.jpg](example_6by2.jpg)
+*Image extracted from authors website.*
 
 ## Dependencies
 
